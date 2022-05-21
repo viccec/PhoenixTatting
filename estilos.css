@@ -1,0 +1,257 @@
+:root{
+    font-size: 16px;
+    
+}
+
+body {
+background-color: #d7d1d1ab;
+
+
+}
+
+/* Contenedor de header, sections y footer,
+ Ordenado mediante Flex */
+.Contenedor{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px 30px;
+    font-family:"Dosis",sans-serif;
+    font-size: 1rem;
+    color:#35353e
+    
+}
+
+/* Contenedor de Logo , Titulo y Menú de navegación */
+header{
+    align-self: flex-start;
+    align-self: stretch;
+    top: 0;
+overflow-y: auto;
+    background-color: white;
+    height: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    margin-bottom:5px ;
+    margin: 0% 7%;
+    position: sticky;
+    z-index: 8;
+    border-bottom:3px solid  #d7d1d1ab;
+    
+    
+    
+}
+
+.LogoInicio{
+    height: 75px;
+    align-self: flex-start;
+   
+}
+
+h1{
+    font-size: 2.3rem;
+    font-family: "Vibur";
+    align-self: center;
+    margin: 0%;
+}
+
+.Menu{
+    
+    font-size: 1.3rem;
+   align-self: flex-end;
+}
+
+ .Menu a {
+    color: rgb(48, 47, 47);
+    text-decoration: none;
+    padding: 5px;
+}
+
+.Menu a:first-child{
+    color: #ffd112;
+    font-weight: 600;
+}
+
+.Menu a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+
+/* Contenedor de sección*/
+.SectionImpar {
+    background-color: #f2f2f2;
+    height: 30%;
+    display: flex;
+    margin: 0.5% 7%;
+}
+
+.Inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    padding: 2% 3%;
+    height: 20%;
+}
+.CuadroInfo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+.CuadroInfo h2{
+    color: #ba0d5c;
+    padding-left: 10%;
+    text-align:center;
+    font-family:"Montserrat alternates";
+    font-size:2rem;
+}
+
+.BotonInicio {
+	background-color:transparent;
+	border-radius:42px;
+	border:3px solid #ffe252;
+	display:inline-block;
+	cursor:pointer;
+	color:#35353e;
+	font-family:"Dosis";
+	font-size:1.5rem;
+	padding:11px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e3e3e3;
+}
+.BotonInicio:hover {
+	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+	background-color:#ffffff;
+	border-radius:42px;
+	border:3px solid #ffe252;
+    color: rgb(92, 87, 87);
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.ImagenesInicio{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    order:2;
+    flex-grow: 2;
+    padding-top: 50px;
+
+}
+
+.FotoInicio{
+    height: 300px;
+    position: relative;
+    top: 8%;
+    left: 15%;
+}
+
+
+.CuadroRosa{
+width: 200px;
+height: 400px;
+background-color: #dd1265;
+}
+
+
+
+.SectionPar {
+    background-color: #ffffff;
+    height: 30%;
+    display: flex;
+    margin: 0.5% 7%;
+}
+
+.Beneficios{
+    height: 10%;
+    
+}
+.Iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.Iconos img{
+    width: 30%;
+}
+
+.Icono{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 2% 2% 2%;
+}
+.Icono h2{
+    font-size: 1.2rem;
+    
+}
+
+.Galeria{
+    display: flex;
+    justify-content: center;
+}
+
+.FotoGaleria {
+    width: 300px;
+    padding: 10px 10px;
+    opacity: 0.6;
+    position: relative;
+}
+
+.agrandable{ transition: all .2s ease-in-out; }
+.agrandable:hover { transform: scale(1.1); opacity: 1; z-index: 4;}
+
+.ContenedorFotoCaratula {
+    position: relative;
+    text-align: center;
+  }
+
+.textoCentrado {
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    color: #faf8f8;
+    font-size: 1.3rem;
+    font-weight: 700;
+    opacity: 1;
+    text-align: center;
+    z-index:1;
+    background-color: rgba(61, 61, 61, 0.6);
+  }
+
+
+footer{
+    height: 2%;
+    background-color: #ffe252;
+    margin: 0.5% 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+footer img{
+    width: 20px;
+    height: 20px;
+    padding: 0px 10px;
+}
+
+footer p{
+    padding: 0px 15px;
+}
