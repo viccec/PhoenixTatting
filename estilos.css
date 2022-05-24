@@ -12,14 +12,19 @@ background-color: #d7d1d1ab;
 /* Contenedor de header, sections y footer,
  Ordenado mediante Flex */
 .Contenedor{
+    position: absolute;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin: 10px 30px;
     font-family:"Dosis",sans-serif;
     font-size: 1rem;
-    color:#35353e
-    
+    color:#35353e;
+    z-index: -4;
+}
+
+.Contenedor h2{
+    text-align: center;
 }
 
 /* Contenedor de Logo , Titulo y Menú de navegación */
@@ -86,7 +91,10 @@ h1{
     height: 30%;
     display: flex;
     margin: 0.5% 7%;
+    justify-content: center;
 }
+
+
 
 .Inicio{
     display: flex;
@@ -134,10 +142,11 @@ h1{
 	border:3px solid #ffe252;
     color: rgb(92, 87, 87);
 }
-.myButton:active {
+.BotonInicio:active {
 	position:relative;
 	top:1px;
 }
+
 
 .ImagenesInicio{
     width: 60%;
@@ -170,6 +179,7 @@ background-color: #dd1265;
     height: 30%;
     display: flex;
     margin: 0.5% 7%;
+    justify-content: center;
 }
 
 .Beneficios{
@@ -198,12 +208,14 @@ background-color: #dd1265;
 }
 .Icono h2{
     font-size: 1.2rem;
+
     
 }
 
 .Galeria{
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
+    padding: 10px 10px;
 }
 
 .FotoGaleria {
@@ -238,7 +250,7 @@ position: absolute;
 
 footer{
     height: 2%;
-    background-color: #ffe252;
+    background-color: #f5e282;
     margin: 0.5% 7%;
     display: flex;
     justify-content: center;
@@ -255,3 +267,111 @@ footer img{
 footer p{
     padding: 0px 15px;
 }
+
+.TituloSeccion{
+    font-family: "Montserrat alternates";
+    margin: 10px 0px;
+    padding: 5px 0px;
+color: white;
+    background-color: rgba(201, 192, 155, 0.6)
+}
+
+
+
+.ContenedorProducto{
+margin: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 5px 20px;
+font-weight: bold;
+color: #868282;
+}
+
+.ContenedorProducto img{
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.BotonProducto {
+	background-color:transparent;
+	
+	background:linear-gradient(to bottom, #91455a 5%, #cc3f86 100%);
+	background-color:#d63260;
+    color: white;
+    width: 200px;
+    font-family:"Dosis";
+	font-size:18px;
+	padding:6px 24px;
+    margin: 2px;
+	text-decoration:none;
+    width: 200px;
+    border: 0px;
+}
+.BotonProducto:hover {
+	background:linear-gradient(to bottom,#d93486  5%, #d63260 100%);
+	background-color:#d63260;
+    color: white;
+    width: 200px;
+}
+
+
+.ImagenesAcerca{
+    margin: 90px 30px;
+}
+
+.CirculoRosa{
+    background-color: #ffed94;
+    border-radius: 100%;
+    position: absolute;
+ ;z-index: 2;
+    width: 200px;
+    height: 200px;
+
+}
+
+.CirculoRosa2{
+    background-color: #dd1265;;
+    border-radius: 100%;
+    position: absolute;
+
+    width: 340px;
+    height: 340px;
+    z-index: 1;
+
+}
+
+.FotoAcerca{
+  position: relative;
+    width: 300px;
+    border-radius: 100%;
+    z-index: 3;
+}
+
+.ContenedorMapaIz{
+    display: flex;
+    text-align: center;
+    padding: 50px;
+}
+
+.ContenedorMapaDer{
+    display: flex;
+    text-align: center;
+    padding: 50px;
+}
+
+.ContenedorMapaIz p{
+    order: 2;
+    align-self: flex-start;
+}
+
+.ContenedorMapaDer p{
+    align-self:end
+}
+.Mapa {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
