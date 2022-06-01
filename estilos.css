@@ -469,6 +469,11 @@ z-index: 1;
     align-items: center;
 
 }
+	
+.FotoGaleria{
+	width:200px;
+	 height:200px;
+}
 
 .ContenedorFotoCaratula{
     width:35%;
