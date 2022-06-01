@@ -463,7 +463,6 @@ z-index: 1;
 }
 
 .Galeria{
-    width: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -476,7 +475,7 @@ z-index: 1;
 }
 
 .ContenedorFotoCaratula{
-    width:35%;
+    width:200px;
     padding:5%;
 
     
@@ -485,7 +484,8 @@ z-index: 1;
 .agrandable{
     opacity: 1;
 
-    width: 250px;
+    width: 200px;
+height:200px;
 }
 
 .Menu{
