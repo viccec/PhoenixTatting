@@ -6,7 +6,6 @@
 body {
 background-color: #d7d1d1ab;
 
-
 }
 
 /* Contenedor de header, sections y footer,
@@ -272,7 +271,8 @@ footer img{
     padding-top: 10px;
 }
 footer p{
-    padding: 0px 15px;
+    padding: 10px 15px;
+    
 }
 
 .TituloSeccion{
@@ -477,6 +477,7 @@ z-index: 1;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -507,8 +508,9 @@ z-index: 1;
 .MenuAnchor{
     width: 100%;
 }
+
+.ContenedorProducto{
+    margin: 10%;
 }
 
-
-
-
+}
