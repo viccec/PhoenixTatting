@@ -96,6 +96,7 @@ h1{
     margin: 0.5% 7%;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 2% 3%;
 
 }
 
@@ -104,8 +105,6 @@ h1{
 .Inicio{
     display: flex;
     flex-direction: row;
-  
-    padding: 2% 3%;
     height: 20%;
 }
 .CuadroInfo {
@@ -184,6 +183,7 @@ background-color: #dd1265;
     margin: 0.5% 7%;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 2% 3%;
 
 }
 
@@ -264,11 +264,13 @@ footer{
 }
 
 footer img{
-    width: 20px;
     height: 20px;
     padding: 0px 10px;
 }
 
+.textoFooter{
+    padding-top: 10px;
+}
 footer p{
     padding: 0px 15px;
 }
@@ -412,6 +414,14 @@ color: #868282;
     padding-right: 20px;
 }
 
+.SectionImpar{
+    padding: 2% 1%;
+}
+
+.SectionPar{
+    padding: 2% 1%;
+}
+
 h1{
     padding-right: 20px;
     
@@ -463,15 +473,11 @@ z-index: 1;
 }
 
 .Galeria{
+   
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
-}
-	
-.FotoGaleria{
-	width:200px;
-	 height:200px;
 }
 
 .ContenedorFotoCaratula{
@@ -483,9 +489,14 @@ z-index: 1;
 
 .agrandable{
     opacity: 1;
-
     width: 200px;
-height:200px;
+    height: 200px;
+}
+
+.FotoGaleria{
+    width: 200px;
+    height: 200px;
+   
 }
 
 .Menu{
