@@ -5,7 +5,6 @@
 
 body {
 background-color: #d7d1d1ab;
-
 }
 
 /* Contenedor de header, sections y footer,
@@ -15,7 +14,6 @@ background-color: #d7d1d1ab;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 10px 0px;
     font-family:"Dosis",sans-serif;
     font-size: 1rem;
     color:#35353e;
@@ -219,7 +217,7 @@ background-color: #dd1265;
 .Galeria{
     display: flex;
     justify-content:space-around;
-    width: 100%;
+    
    
 }
 
